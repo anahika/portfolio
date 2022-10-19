@@ -1,0 +1,35 @@
+h1 {
+  color: #b93651;
+}
+h4 {
+  color: rgb(53, 159, 221);
+}
+h6{
+  line-height: inherit;
+}
+.span1 {
+  color: #4f4e4e;
+}
+.span2 {
+  color: #909090;
+}
+.span3 {
+  color: #ee6513;
+}
+
+.div1 {
+  background: #f6f9ff;
+  border-radius: 1em;
+  box-shadow: 0 5px 10px rgba(231, 100, 13, 0.2);
+  font-family: cursive;
+  font-size: medium;
+  color: #4f4e4e;
+  font-weight: 590;
+  line-height: 1.75rem;
+}
+
+@media (max-width: 770px) {
+  .div1 {
+    margin: 30px;
+  }
+}

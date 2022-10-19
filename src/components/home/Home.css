@@ -1,0 +1,56 @@
+.main {
+  max-width: 100%;
+  height: 100vh;
+  padding: 20px;
+}
+
+.row {
+  max-width: 100%;
+}
+.icon {
+  width: 250px;
+  border-radius: 75%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.title {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+.profile-card {
+  margin-bottom: 30px;
+  padding: 1.5em 0.5em 0.5em;
+  border-radius: 2em;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.km-btn {
+  border-radius: 2em;
+  padding: 0.5em 1.5em;
+}
+ul {
+  list-style: none;
+  width: 100%;
+}
+ul li {
+  margin: 2rem;
+}
+
+.ach-div {
+  width: 100%;
+  color: #ee6513;
+  font-family: Srisakdi, cursive;
+}
+
+@media (min-width: 250px) and (max-width: 450px) {
+  .main {
+    max-width: 100vw;
+    height: 110vh;
+  }
+}
+@media (max-width: 1000px) {
+  .main {
+    max-width: 100vw;
+    height: fit-content;
+  }
+}
