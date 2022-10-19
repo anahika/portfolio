@@ -13,7 +13,6 @@ const Home = () => {
               <Card.Img
                 src={process.env.PUBLIC_URL + "/anshika.jpeg"}
                 className="icon"
-                round
               />
               <Card.Body>
                 <Card.Title className="title"> Anshika</Card.Title>
@@ -64,7 +63,7 @@ const Home = () => {
                 >
                   Resume
                 </a>
-              </li>
+              </li> 
               <li>
                 <Link
                   to="/skills"

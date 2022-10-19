@@ -7,7 +7,7 @@ function Projects() {
       <div className="row mt-4">
         <div className=" div1 p-4">
           <h1>Tour Website </h1>
-          <ul>
+          <ol className="text-left">
             <li>
               <h6>
                 Users can get authenticated using{" "}
@@ -30,7 +30,7 @@ function Projects() {
                 </span>
               </h6>
             </li>
-          </ul>
+          </ol>
           <a href="/" className="btn btn-info mt-4">
             Github
           </a>
@@ -43,7 +43,7 @@ function Projects() {
       <div className="row justify-content-end mt-4">
         <div className=" div1 p-4">
           <h1>Blog Website </h1>
-          <ul>
+          <ol className="text-left">
             <li>
               <h6>
                 Developed static blog website using{" "}
@@ -57,7 +57,7 @@ function Projects() {
                 screens and viewports.
               </h6>
             </li>
-          </ul>
+          </ol>
           <a
             href="https://github.com/anahika/blog"
             target="_blank"
