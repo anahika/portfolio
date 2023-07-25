@@ -17,8 +17,9 @@ const Home = () => {
               <Card.Body>
                 <Card.Title className="title"> Anshika</Card.Title>
                 <p>
-                  I am a Trainee Engineer (ASDE) at Publicis Sapient. My domain
-                  is Full Stack development.
+                  An Engineer focused on creating innovative solutions and
+                  collaborating effectively to deliver exceptional software
+                  products.
                 </p>
                 <Link to="/about-me" className="btn btn-info km-btn">
                   Know More
@@ -56,20 +57,20 @@ const Home = () => {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/drive/u/1/folders/100Qd1po3s7yWivVTSRwxEDf285YN5WBB"
+                  href="https://drive.google.com/drive/folders/1eBdhD-9xPnFRHOGdV50GbOIQ4QVbMRMU?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-lg btn-block btn-outline-info "
                 >
                   Resume
                 </a>
-              </li> 
+              </li>
               <li>
                 <Link
                   to="/skills"
                   className="btn btn-lg btn-block btn-outline-info "
                 >
-                 More about me
+                  More about me
                 </Link>
               </li>
             </ul>

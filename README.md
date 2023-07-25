@@ -1,8 +1,6 @@
 # My Portfolio
 
-I have created a portfolio to showcase my skills and projects.
-
-This was a website built to showcase my technical skills, web design skills.
+I have created a portfolio to showcase my technical skills, web design skills and projects.
 
 ### Technologies Used
 
@@ -13,4 +11,4 @@ This was a website built to showcase my technical skills, web design skills.
 
 # Web Link
 
-[https://thenomadicgaddi.herokuapp.com/](https://thenomadicgaddi.herokuapp.com/)
+[https://anshika-portfolio.herokuapp.com/](https://anshika-portfolio.herokuapp.com/)
