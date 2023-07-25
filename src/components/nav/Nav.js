@@ -9,7 +9,7 @@ const Top = () => {
   return (
     <Navbar className="nav-div">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/portfolio">
           Anshika
         </Navbar.Brand>
         <Nav className="my-2 my-lg-0">
