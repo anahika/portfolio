@@ -67,7 +67,7 @@ const Home = () => {
               </li>
               <li>
                 <Link
-                  to="/skills"
+                  to="/more-about-me"
                   className="btn btn-lg btn-block btn-outline-info "
                 >
                   More about me
