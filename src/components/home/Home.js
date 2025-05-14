@@ -11,7 +11,7 @@ const Home = () => {
           <div className="d-flex align-items-center justify-content-center">
             <Card className="profile-card d-flex align-items-center justify-content-center">
               <Card.Img
-                src={process.env.PUBLIC_URL + "/anshika.jpeg"}
+                src={process.env.PUBLIC_URL + "/Anshika.jpeg"}
                 className="icon"
               />
               <Card.Body>
