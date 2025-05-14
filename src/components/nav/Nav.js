@@ -23,6 +23,9 @@ const Top = () => {
           <Nav.Link as={Link} to="/skills">
             Skills
           </Nav.Link>
+          <Nav.Link as={Link} to="/more-about-me">
+            More About me
+          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>

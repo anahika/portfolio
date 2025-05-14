@@ -4,16 +4,16 @@ import { Carousel } from "react-responsive-carousel";
 import "./Carousel.css";
 
 function Carousal() {
-  const images = ["anshika.jpeg", ""];
+  const images = ["Anshika.jpeg", "intro.png"];
   return (
     <Carousel
       autoPlay="true"
       infiniteLoop="true"
       showThumbs={false}
       showStatus="false"
-      className="w-100"
+      className="w-50 m-auto"
     >
-      {images.data.map((image) => {
+      {images.map((image) => {
         return (
           <div key={image} className="postImageWrapper1">
             <img src={require("../../assets/" + image)} alt="BlogImage" />
